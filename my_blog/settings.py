@@ -138,3 +138,10 @@ MAILERS = {
         'BACKEND': 'django.core.mail.backends.console.EmailBackend',
     },
 }
+
+
+# Custom auth
+
+AUTH_USER_MODEL = 'custom_auth.User'
+
+LOGIN_URL = 'admin/login'
